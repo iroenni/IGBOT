@@ -1,0 +1,97 @@
+=== BOT DE TELEGRAM PARA DESCARGAR VIDEOS DE INSTAGRAM ===
+
+📌 REQUISITOS PREVIOS:
+1. Python 3.7 o superior instalado
+2. Conexión a Internet
+3. Token de Bot de Telegram
+
+🚀 INSTALACIÓN RÁPIDA:
+
+1. Instalar dependencias:
+   pip install -r requirements.txt
+
+2. Configurar el bot:
+   - Abre el archivo `bot_instagram.py`
+   - Busca la línea: BOT_TOKEN = "TU_TOKEN_AQUI"
+   - Reemplázala con tu token real de @BotFather
+
+3. Ejecutar el bot:
+   python bot_instagram.py
+
+🛠️ OBTENER TOKEN DE BOTFATHER:
+
+1. Abre Telegram
+2. Busca @BotFather
+3. Envía /newbot
+4. Sigue las instrucciones:
+   - Ponle nombre a tu bot
+   - Elige un username (debe terminar en 'bot')
+5. Copia el token que te da (ej: 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11)
+
+🔧 CONFIGURACIÓN OPCIONAL:
+
+- Cambiar límite de tamaño (línea 18):
+  MAX_FILE_SIZE = 100 * 1024 * 1024  # Para 100MB
+
+- Cambiar directorio de descargas (línea 17):
+  DOWNLOAD_DIR = "./descargas"
+
+⚡ CARACTERÍSTICAS DEL BOT:
+
+✅ Funciona con:
+   - Reels de Instagram
+   - Posts con video
+   - Videos de perfil
+
+✅ Servicios utilizados:
+   - ddinstagram.com (primario)
+   - snapinsta.app (alternativo)
+
+✅ Características:
+   - Descarga automática
+   - Límite de 50MB
+   - Limpieza automática de archivos
+   - Logs detallados
+   - Manejo de errores
+
+⚠️ LIMITACIONES:
+
+- Solo contenido público
+- Máximo 50MB por video
+- Límites de tasa de los servicios gratuitos
+- No funciona con perfiles privados
+
+📝 NOTAS IMPORTANTES:
+
+1. El bot es gratuito y usa servicios públicos
+2. Los videos se eliminan automáticamente después de enviar
+3. Para uso intensivo, considera usar una API paga
+4. Respeta los derechos de autor
+
+🆘 SOLUCIÓN DE PROBLEMAS:
+
+❌ Error "Debes configurar tu token":
+   - Verifica que hayas reemplazado TU_TOKEN_AQUI
+
+❌ Error "No module named...":
+   - Ejecuta: pip install -r requirements.txt
+
+❌ Error "Tiempo de espera agotado":
+   - Intenta de nuevo más tarde
+   - Verifica tu conexión a internet
+
+❌ Error "No se pudo encontrar el video":
+   - El video puede ser privado
+   - Intenta con otro enlace
+   - El servicio puede estar temporalmente caído
+
+📞 SOPORTE:
+- Para reportar errores: @TuUsuario
+- Actualizaciones: @TuCanal
+
+🎯 USO ÉTICO:
+- Solo descarga contenido con permiso
+- Respeta los términos de servicio
+- No uses para spam o abuso
+
+✨ ¡Listo! Tu bot está funcionando.
