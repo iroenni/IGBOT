@@ -15,7 +15,7 @@ import requests
 
 # ==================== CONFIGURACIÓN ====================
 # ¡REEMPLAZA ESTO CON TU TOKEN DE BOTFATHER!
-BOT_TOKEN = "TU_TOKEN_AQUI"
+BOT_TOKEN = "8544918906:AAGR6WDhACpp-Z1zVDhKENTGLXSK5trqs9Q"
 
 # Directorio temporal para descargas
 DOWNLOAD_DIR = tempfile.gettempdir()
